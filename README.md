@@ -40,4 +40,4 @@ Fork this repo then pull request your submission on a branch that includes your 
 ```ryanwild-awesome-quake-demo```
 
 #Issues
-If you have any issues or questions post them in the wiki:
+If you have any issues or questions post them in the wiki: https://github.com/ryanwild/frontend-developer-test/issues
