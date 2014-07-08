@@ -23,7 +23,7 @@ will need to do the following:
     * Magnitude
     * Time/Date
     * Depth
- * jQuery can be used and absolutely any other library including you deem worthy of using, of course you will need to justify and
+ * jQuery can be used and absolutely any other library you deem worthy of using, of course you will need to justify and
  explain your reasoning.
  * Bonus points will be given if you do the following:
     * Add a refresh button
