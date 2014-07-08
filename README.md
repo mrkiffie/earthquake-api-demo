@@ -1,3 +1,4 @@
+![Quake Alert](https://raw.github.com/ryanwild/frontend-developer-test/master/docs/images/quake.jpg)
 Frontend Developer Test
 =======================
 A test to gauge your Javascript and HTML skill level.
