@@ -1,6 +1,6 @@
 Frontend Developer Test
 =======================
-A little test to gauge your Javascript and HTML skill level.
+A test to gauge your Javascript and HTML skill level.
 
 #Background
 It's the end of the world, nuclear war has broken out and the explosions have caused a rift in the earths seismic
@@ -40,4 +40,4 @@ Fork this repo then pull request your submission on a branch that includes your 
 > ryanwild-awesome-quake-demo
 
 #Issues
-If you have any issues or questions post them in the wiki: https://github.com/ryanwild/frontend-developer-test/issues
+If you have any issues or questions post them here: https://github.com/ryanwild/frontend-developer-test/issues
