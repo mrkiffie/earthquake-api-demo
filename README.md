@@ -37,7 +37,7 @@ will need to do the following:
 
 #To get started
 Fork this repo then pull request your submission on a branch that includes your Github username, e.g:
-```ryanwild-awesome-quake-demo```
+> ryanwild-awesome-quake-demo
 
 #Issues
 If you have any issues or questions post them in the wiki: https://github.com/ryanwild/frontend-developer-test/issues
