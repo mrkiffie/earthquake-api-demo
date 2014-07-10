@@ -35,6 +35,7 @@ will need to do the following:
     * Consider mobile first
     * Object oriented and modular Javascript is favourable: http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
     * Really its all up to you, browser performance, html, css, javascript go nuts... Kill it
+    * P.S. There's a super bonus point easter egg, the service has location data in the response, be creative...
 
 #To get started
 Fork this repo then pull request your submission on a branch that includes your Github username, e.g:
