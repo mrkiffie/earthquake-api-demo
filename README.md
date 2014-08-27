@@ -18,7 +18,7 @@ will need to do the following:
  ```http://www.seismi.org/api/eqs/2011/03?min_magnitude=6``` > further documentation can be found here: (http://www.seismi.org/api/)
  * Render the results on the page
  * The results must be displayed in a timeline fashion similar to Facebook/Twitter timeline
- * A timeline item must display the followin properties:
+ * A timeline item must display the following properties:
     * Region
     * Magnitude
     * Time/Date
