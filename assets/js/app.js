@@ -134,6 +134,8 @@ jQuery(document).ready(function ($) {
         earthquakeStat.data = cache.get(endPoint);
         if (earthquakeStat.data === null) {
           $.when(earthquakeStat.loadData(endPoint)).done(dfd.resolve);
+        } else {
+          dfd.resolve();
         }
       } else {
         $.when(earthquakeStat.loadData(endPoint)).done(dfd.resolve);
@@ -153,6 +155,7 @@ jQuery(document).ready(function ($) {
 
     loadDataSet : function () {
 
+      $('#feed').empty().addClass('loading');
       $.when(earthquakeStat.getData()).done(earthquakeStat.renderFeed);
 
     },
@@ -166,7 +169,16 @@ jQuery(document).ready(function ($) {
         time,
         depth,
         coords,
-        button;
+        button,
+        message;
+
+      if (earthquakeStat.data.count < 1) {
+        message = $('<h2/>')
+          .text('No results matched the query.');
+        $('#feed').removeClass('loading').empty().append(message);
+        console.log('asfdasd');
+        return;
+      }
 
       $.each(earthquakeStat.data.earthquakes, function (i) {
 
@@ -205,7 +217,7 @@ jQuery(document).ready(function ($) {
         li.appendTo(fragment);
       });
 
-      $('#feed').empty().append(fragment);
+      $('#feed').removeClass('loading').empty().append(fragment);
     }
   };
 

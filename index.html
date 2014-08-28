@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Earthquake Stats</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="mrkiffie">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body >
 
     <h1>Earthquake Stats</h1>
 
@@ -17,7 +19,7 @@
 
     <form id="controls">
         <label>Year:
-            <input type="number" name="year" id="year" value="2011" min="2009" max="2013" step="1">
+            <input type="number" name="year" id="year" value="" min="2009" max="2013" step="1">
         </label>
         <label>Month:
             <select name="month" id="month">
@@ -47,7 +49,7 @@
 
     </form>
 
-    <ul id="feed"></ul>
+    <ul id="feed" class="loading"></ul>
 
     <script src="assets/js/lib/modernizr.js"></script>
     <script src="assets/js/lib/jquery.js"></script>
