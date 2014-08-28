@@ -1,4 +1,4 @@
-body{
+body {
     font-family: sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -16,54 +16,70 @@ body{
 }
 
 ul,
-li{
+li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li{
+li {
     position: relative;
     margin: 0 0 2em;
     padding: 0 0 1em;
     border-bottom: 1px solid #ddd;
 }
 
-h1{
+h1 {
     color: #888;
 }
 
-h2{
+h2 {
     color: #666;
     font-weight: 400;
+    text-transform: capitalize;
 }
-img{
+
+img {
     width: auto;
     max-width: 100%;
     height: auto;
     border: 0;
     border-radius: 3px;
 }
+
 time,
 .depth,
-.magnitude{
+.magnitude {
     display: block;
     line-height: 1.3;
     color: #444;
 }
 
-time{
+time {
     margin: .5em 0 0;
 }
-.depth{
 
+.depth {
 }
-.magnitude{
 
+.magnitude {
 }
-button{
+
+button {
     position: absolute;
     bottom: .5em;
     right: .5em;
 }
 
+.no-js form {
+    display: none;
+}
+
+input[type="number"],
+select {
+    padding: .25em .5em;
+}
+
+label {
+    display: inline-block;
+}

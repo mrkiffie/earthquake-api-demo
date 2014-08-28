@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <title>Earthquake Stats</title>
@@ -9,6 +9,44 @@
 <body>
 
     <h1>Earthquake Stats</h1>
+
+    <noscript>
+        <h2>This might come as a shock, but this site requires javascript.</h2>
+    </noscript>
+
+
+    <form id="controls">
+        <label>Year:
+            <input type="number" name="year" id="year" value="2011" min="2009" max="2013" step="1">
+        </label>
+        <label>Month:
+            <select name="month" id="month">
+                <option value=""> - select - </option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </label>
+        <label>Limit:
+            <input type="number" name="limit" id="limit" value="25" min="1" max="100" step="1">
+        </label>
+        <label>Min Magnitude:
+            <input type="number" name="min_magnitude" id="min_magnitude" value="6" min="1" max="10" step=".1">
+        </label>
+
+        <input type="submit" id="submit">
+
+    </form>
+
     <ul id="feed"></ul>
 
     <script src="assets/js/lib/modernizr.js"></script>
